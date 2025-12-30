@@ -13,13 +13,13 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 bg-primary">
-      <div className="max-w-6xl mx-auto px-8 py-6 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-8 pt-3 pb-4 flex items-center justify-between">
         
         {/* Logo */}
         <img
           src="/images/logo-moencake.png"
           alt="MoenCake"
-          className="h-10 w-auto"
+          className="h-12 w-auto"
         />
 
         {/* Desktop Menu */}

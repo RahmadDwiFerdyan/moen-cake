@@ -26,14 +26,14 @@ export default function Detail() {
       <div
         className="
           max-w-5xl
-          mx-auto mb-4
+          mx-auto mb-4 px-4
         "
       >
         <button
           onClick={() => navigate("/")}
           className="
             flex
-            px-4 py-3
+            px-4 py-1
             text-gray-700
             bg-white
             rounded-lg border border-gray-300
@@ -70,8 +70,8 @@ export default function Detail() {
       {/* ================= DETAIL PRODUK ================= */}
       <div
         className="
-          max-w-7xl
           mx-auto px-4
+          lg:max-w-5xl
         "
       >
         <div
@@ -79,7 +79,6 @@ export default function Detail() {
             grid grid-cols-1
             gap-6
             lg:grid-cols-2
-            lg:max-w-5xl mx-auto
           "
         >
           {/* IMAGE */}
@@ -96,7 +95,7 @@ export default function Detail() {
                 alt={product.name}
                 className="
                   object-cover
-                  w-full h-100
+                  w-full h-80 md:h-100
                 "
               />
             </div>
@@ -191,8 +190,7 @@ export default function Detail() {
                   <span
                     className="
                       pl-8
-                      text-right
-                      text-sm
+                      text-right text-sm
                     "
                   >
                     {v.description}
@@ -215,7 +213,7 @@ export default function Detail() {
 ${product.name}
 Harga: Rp ${variant.price}
 
-Apakah bisa?`
+Apakah bisa?`,
                 )}`}
                 target="_blank"
                 className="

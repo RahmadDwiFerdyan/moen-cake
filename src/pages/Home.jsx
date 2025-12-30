@@ -41,7 +41,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-4 mb-6">
+      <div className="flex flex-wrap gap-2 mb-6">
         <FilterDropdown
           value={selectedCategory}
           options={["Semua", ...categories]}

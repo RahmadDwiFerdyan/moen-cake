@@ -25,10 +25,10 @@ export default function FilterDropdown({ value, options, onChange }) {
         onClick={() => setOpen(!open)}
         className={`
           flex
-          min-w-45
+          w-40
           px-4 py-2
-          rounded-full border-2
           bg-white
+          rounded-full border-2
           items-center justify-between transition hover:border-primary
           ${
             value !== "Semua" && value !== "Urutkan"
@@ -37,7 +37,16 @@ export default function FilterDropdown({ value, options, onChange }) {
           }
         `}
       >
-        <span>{value}</span>
+        <span
+          className="
+            overflow-hidden
+            max-w-30
+            whitespace-nowrap
+            truncate
+          "
+        >
+          {value}
+        </span>
         <svg
           fill="none"
           viewBox="0 0 24 24"
@@ -81,8 +90,8 @@ export default function FilterDropdown({ value, options, onChange }) {
                 w-full
                 px-4 py-2
                 text-left
-                rounded-t-lg last:rounded-b-lg
-                hover:bg-gray-100
+                rounded-t-lg
+                last:rounded-b-lg hover:bg-gray-100
               "
             >
               {opt}
