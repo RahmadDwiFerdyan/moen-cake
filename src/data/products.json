@@ -1,0 +1,135 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Kue Sus",
+      "categories": ["Kue Basah", "Snack"],    
+      "thumbnail": "/images/sus-1.jpg",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Ukuran reguler",
+          "image": "/images/sus-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Isi lebih banyak",
+          "image": "/images/sus-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Lemper Ayam",
+      "categories": ["Kue Basah", "Snack"],    
+      "thumbnail": "/images/lemper-1.jpg",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Ukuran reguler",
+          "image": "/images/lemper-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Isi lebih banyak",
+          "image": "/images/lemper-2.jpeg"
+        },
+        {
+          "price": "6.000",
+          "description": "Isi lebih banyak dengan Ayam premium khas lorem iipsum dolor sit amet Ayam premium khas lorem iipsum dolor sit amet",
+          "image": "/images/lemper-2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Kue Sus",
+      "categories": ["Jajanan Pasar", "Snack"],
+      "thumbnail": "/images/sus-1.jpg",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Ukuran reguler",
+          "image": "/images/sus-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Isi lebih banyak",
+          "image": "/images/sus-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Kue Sus",
+      "categories": ["Kue Basah", "Snack"],
+      "thumbnail": "/images/sus-1.jpg",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Ukuran reguler",
+          "image": "/images/sus-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Isi lebih banyak",
+          "image": "/images/sus-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Kue Sus",
+      "categories": ["Kue Basah", "Snack"],    
+      "thumbnail": "/images/sus-1.jpg",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Ukuran reguler",
+          "image": "/images/sus-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Isi lebih banyak",
+          "image": "/images/sus-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Kue Sus",
+      "categories": ["Kue Basah", "Snack"],    
+      "thumbnail": "/images/sus-1.jpg",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Ukuran reguler",
+          "image": "/images/sus-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Isi lebih banyak",
+          "image": "/images/sus-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Kue Sus",
+      "categories": ["Snack"],    
+      "thumbnail": "/images/sus-1.jpg",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Ukuran reguler",
+          "image": "/images/sus-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Isi lebih banyak",
+          "image": "/images/sus-2.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+/* Tailwind v4 entry */
+@import "tailwindcss";
+
+/* DESIGN TOKENS */
+@theme {
+  --color-primary: #E20435;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+
+/* set default font */
+body {
+  background-color: #F5F5F5;
+  font-family: var(--font-sans);
+  color: #3a3a3a;
+}
