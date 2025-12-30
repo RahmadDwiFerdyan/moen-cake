@@ -190,7 +190,7 @@ export default function Detail() {
                   <span
                     className="
                       pl-8
-                      text-right text-sm
+                      text-right text-base
                     "
                   >
                     {v.description}

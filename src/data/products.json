@@ -36,7 +36,7 @@
         },
         {
           "price": "6.000",
-          "description": "Isi lebih banyak dengan Ayam premium khas lorem iipsum dolor sit amet Ayam premium khas lorem iipsum dolor sit amet",
+          "description": "Isi lebih banyak dengan Ayam premium",
           "image": "/images/lemper-2.jpeg"
         }
       ]
@@ -44,7 +44,7 @@
     {
       "id": "3",
       "name": "Kue Sus",
-      "categories": ["Jajanan Pasar Raya", "Snack"],
+      "categories": ["Jajanan Pasar", "Snack"],
       "thumbnail": "/images/sus-1.jpg",
       "variants": [
         {
