@@ -3,12 +3,14 @@ export default function ProductCard({ product, onClick }) {
     <div
       onClick={onClick}
       className="
+        flex flex-col
         bg-white
         rounded-sm
         cursor-pointer transition-all
-        duration-300 ring-1 ring-transparent hover:ring-2 hover:ring-primary hover:shadow-md group hover:-translate-y-0.5
+        group duration-300 ring-1 ring-transparent hover:ring-2 hover:ring-primary hover:shadow-md hover:-translate-y-0.5
       "
     >
+      {/* IMAGE */}
       <img
         src={product.thumbnail}
         alt={product.name}
@@ -19,14 +21,16 @@ export default function ProductCard({ product, onClick }) {
         "
       />
 
+      {/* CONTENT */}
       <div
         className="
-          p-4
+          flex flex-col flex-1
+          p-3
         "
       >
         <h3
           className="
-            font-medium text-xl text-gray-700
+            font-medium text-xl leading-snug
           "
         >
           {product.name}
@@ -35,24 +39,27 @@ export default function ProductCard({ product, onClick }) {
         <p
           className="
             mt-1
-            text-primary text-2xl font-bold
+            text-primary font-bold text-xl
           "
         >
           Rp {product.variants[0].price}
         </p>
-        <p
+
+        {/* <p
           className="
             mt-1
-            text-gray-500 text-xs font-medium
+            text-sm text-gray-500
+            line-clamp-2
           "
         >
           {product.variants[0].description}
-        </p>
+        </p> */}
 
+        {/* PUSH TO BOTTOM */}
         <div
           className="
             flex
-            mt-6
+            mt-auto pt-4
             justify-center
           "
         >
@@ -60,8 +67,7 @@ export default function ProductCard({ product, onClick }) {
             className="
               inline-flex
               text-sm font-medium text-gray-500
-              transition-all
-              items-center gap-1 duration-200 group-hover:text-primary
+              items-center gap-1 group-hover:text-primary transition
             "
           >
             Lihat variasi harga
@@ -71,9 +77,9 @@ export default function ProductCard({ product, onClick }) {
               viewBox="0 0 24 24"
               stroke="currentColor"
               className="
-                w-4 h-4
+                w-3 h-3
                 transition-transform
-                duration-200 group-hover:translate-x-1
+                group-hover:translate-x-1
               "
             >
               <path

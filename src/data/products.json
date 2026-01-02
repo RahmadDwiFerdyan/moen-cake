@@ -2,132 +2,736 @@
   "products": [
     {
       "id": "1",
-      "name": "Kue Sus",
-      "categories": ["Kue Basah", "Snack"],    
-      "thumbnail": "/images/sus-1.jpg",
+      "name": "Roti Kukus",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
       "variants": [
         {
           "price": "2.000",
-          "description": "Ukuran reguler",
-          "image": "/images/sus-1.jpg"
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
         },
         {
-          "price": "4.000",
-          "description": "Isi lebih banyak",
-          "image": "/images/sus-2.jpg"
+          "price": "3.000",
+          "description": "Ukuran lebih besar",
+          "image": "/images/blank-1.png"
         }
       ]
     },
     {
       "id": "2",
-      "name": "Lemper Ayam",
-      "categories": ["Kue Basah", "Snack"],    
-      "thumbnail": "/images/lemper-1.jpg",
+      "name": "Putu Ayu",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
       "variants": [
         {
+          "price": "2.000",
+          "description": "Regular",
+          "image": "/images/blank-1.png"
+        },
+        {
           "price": "3.000",
-          "description": "Ukuran reguler",
-          "image": "/images/lemper-1.jpg"
-        },
-        {
-          "price": "4.000",
-          "description": "Isi lebih banyak",
-          "image": "/images/lemper-2.jpeg"
-        },
-        {
-          "price": "6.000",
-          "description": "Isi lebih banyak dengan Ayam premium",
-          "image": "/images/lemper-2.jpeg"
+          "description": "Ukuran lebih besar",
+          "image": "/images/blank-1.png"
         }
       ]
     },
     {
       "id": "3",
-      "name": "Kue Sus",
-      "categories": ["Jajanan Pasar", "Snack"],
-      "thumbnail": "/images/sus-1.jpg",
+      "name": "Kue Talam",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
       "variants": [
         {
-          "price": "2.000",
-          "description": "Ukuran reguler",
-          "image": "/images/sus-1.jpg"
-        },
-        {
-          "price": "4.000",
-          "description": "Isi lebih banyak",
-          "image": "/images/sus-2.jpg"
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
         }
       ]
     },
     {
       "id": "4",
-      "name": "Kue Sus",
-      "categories": ["Kue Basah", "Snack"],
-      "thumbnail": "/images/sus-1.jpg",
+      "name": "Apem",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
       "variants": [
         {
           "price": "2.000",
-          "description": "Ukuran reguler",
-          "image": "/images/sus-1.jpg"
-        },
-        {
-          "price": "4.000",
-          "description": "Isi lebih banyak",
-          "image": "/images/sus-2.jpg"
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
         }
       ]
     },
     {
       "id": "5",
-      "name": "Kue Sus",
-      "categories": ["Kue Basah", "Snack"],    
-      "thumbnail": "/images/sus-1.jpg",
+      "name": "Cum-cum",
+      "categories": [
+        "Kue tradisional", "Pie & Pastry"
+      ],
+      "thumbnail": "/images/blank-1.png",
       "variants": [
         {
           "price": "2.000",
-          "description": "Ukuran reguler",
-          "image": "/images/sus-1.jpg"
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
         },
         {
           "price": "4.000",
-          "description": "Isi lebih banyak",
-          "image": "/images/sus-2.jpg"
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran lebih besar + fla premium",
+          "image": "/images/blank-1.png"
         }
       ]
     },
     {
       "id": "6",
-      "name": "Kue Sus",
-      "categories": ["Kue Basah", "Snack"],    
-      "thumbnail": "/images/sus-1.jpg",
+      "name": "Pie Buah",
+      "categories": [
+        "Kue tradisional", "Pie & Pastry"
+      ],
+      "thumbnail": "/images/blank-1.png",
       "variants": [
         {
           "price": "2.000",
-          "description": "Ukuran reguler",
-          "image": "/images/sus-1.jpg"
+          "description": "Reguler, buah (pepaya, bengkoang, nanas)",
+          "image": "/images/blank-1.png"
         },
         {
           "price": "4.000",
-          "description": "Isi lebih banyak",
-          "image": "/images/sus-2.jpg"
+          "description": "Isian lebih banyak + buah pilihan (anggur, kiwi, nanas)",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran besar, buah (stroberi, anggur, kiwi, nanas)",
+          "image": "/images/blank-1.png"
         }
       ]
     },
     {
       "id": "7",
-      "name": "Kue Sus",
-      "categories": ["Snack"],    
+      "name": "Sus",
+      "categories": [
+        "Kue tradisional", "Sus"
+      ],
       "thumbnail": "/images/sus-1.jpg",
       "variants": [
         {
           "price": "2.000",
-          "description": "Ukuran reguler",
+          "description": "Reguler",
           "image": "/images/sus-1.jpg"
         },
         {
-          "price": "4.000",
-          "description": "Isi lebih banyak",
+          "price": "3.000",
+          "description": "Lebih besar, fla premium",
           "image": "/images/sus-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Sus Buah",
+      "categories": [
+        "Sus"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "4.000",
+          "description": "Reguler, buah pilihan (anggur, kiwi, nanas)",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Lebih besar, buah (stroberi, anggur, kiwi, nanas)",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Sus Eclair",
+      "categories": [
+        "Sus"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "4.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Lebih besar dari varian sebelumnya",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Sus Ragut",
+      "categories": [
+        "Sus", "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "3.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "4.000",
+          "description": "Ukuran lebih besar dengan isian ragut ayam",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Sus Keju",
+      "categories": [
+        "Sus"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "4.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Sus Coklat",
+      "categories": [
+        "Sus"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "0",
+          "description": "",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Sus Maker",
+      "categories": [
+        "Sus"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "4.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Lemper Ayam",
+      "categories": [
+        "Kue tradisional", "Snack (Savory)"
+      ],
+      "thumbnail": "/images/lemper-1.jpg",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/lemper-1.jpg"
+        },
+        {
+          "price": "4.000",
+          "description": "Ukuran besar",
+          "image": "/images/lemper-2.jpeg"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran lebih besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Pastel",
+      "categories": [
+        "Kue tradisional", "Snack (Savory)"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran besar, dan tambahan isian ayam",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Kroket",
+      "categories": [
+        "Snack (Savory)"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "6.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Sosis Solo",
+      "categories": [
+        "Kue tradisional", "Snack (Savory)"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "4.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Risoles",
+      "categories": [
+        "Kue tradisional", "Snack (Savory)"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "4.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran lebih besar + acar + ragut premium",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Risol Mayo",
+      "categories": [
+        "Kue tradisional", "Snack (Savory)"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "4.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Dadar Gulung",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "2.500",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Semar Mendem",
+      "categories": [
+        "Kue tradisional", "Snack (Savory)"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "4.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Pancake",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "2.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "3.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "4.000",
+          "description": "Ukuran lebih besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Pancake Gulung",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "0",
+          "description": "",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Kue Lumpur",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "3.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Grim Pisang",
+      "categories": [
+        "Pie & Pastry"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "4.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        },
+        {
+          "price": "6.000",
+          "description": "Ukuran besar",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Grim Segitiga",
+      "categories": [
+        "Pie & Pastry"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "6.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Sosis Brod (Daging Sapi)",
+      "categories": [
+        "Pie & Pastry"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "10.000",
+          "description": "Reguler, isian daging sapi",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Puding almond",
+      "categories": [
+        "Puding"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "5.000",
+          "description": "Reguler cup",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Puding coklat mocca",
+      "categories": [
+        "Puding"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "5.000",
+          "description": "Reguler cup",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Puding leci",
+      "categories": [
+        "Puding"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "5.000",
+          "description": "Reguler cup",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Puding leci",
+      "categories": [
+        "Puding"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "0",
+          "description": "",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Puding cocktail coklat moca",
+      "categories": [
+        "Puding"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "0",
+          "description": "",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Puding Fla",
+      "categories": [
+        "Puding"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "0",
+          "description": "",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Nagasari hungkwe",
+      "categories": [
+        "Kue tradisional"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "4.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Picnic roll",
+      "categories": [
+        "Paket & Masakan"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "150.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Galantin 1 pax untuk 5 porsi",
+      "categories": [
+        "Paket & Masakan"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "150.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Sop merah",
+      "categories": [
+        "Paket & Masakan"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "30.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Paket Nampan isi 20",
+      "categories": [
+        "Paket & Masakan"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "50.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Paket Nampan isi 12",
+      "categories": [
+        "Paket & Masakan"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "30.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Paket Nampan isi 40 mini",
+      "categories": [
+        "Paket & Masakan"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "90.000",
+          "description": "Reguler",
+          "image": "/images/blank-1.png"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Paket Kotak Kue",
+      "categories": [
+        "Paket & Masakan"
+      ],
+      "thumbnail": "/images/blank-1.png",
+      "variants": [
+        {
+          "price": "4.500",
+          "description": "Mulai dari 4500 dengan isian kue seribuan",
+          "image": "/images/blank-1.png"
         }
       ]
     }

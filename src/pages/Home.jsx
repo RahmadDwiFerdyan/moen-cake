@@ -3,10 +3,19 @@ import { useNavigate } from "react-router-dom";
 import products from "../data/products.json";
 import ProductCard from "../components/ProductCard";
 import FilterDropdown from "../components/FilterDropdown";
+import { useEffect } from "react";
+import ProductSkeleton from "../components/ProductSkeleton";
+
 
 
 export default function Home() {
   const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 500);
+    return () => clearTimeout(timer);
+  }, []);
 
   const [selectedCategory, setSelectedCategory] = useState("Semua");
   const [sort, setSort] = useState("default");
@@ -67,15 +76,20 @@ export default function Home() {
 
 
       {/* PRODUCT GRID */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-        {filteredProducts.map((item) => (
-          <ProductCard
-            key={item.id}
-            product={item}
-            onClick={() => navigate(`/product/${item.id}`)}
-          />
-        ))}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+        {loading
+          ? Array.from({ length: 8 }).map((_, i) => (
+            <ProductSkeleton key={i} />
+          ))
+          : filteredProducts.map((item) => (
+            <ProductCard
+              key={item.id}
+              product={item}
+              onClick={() => navigate(`/product/${item.id}`)}
+            />
+          ))}
       </div>
+
     </div>
   );
 }
